@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.model3-container {
+    background-image: url(/src/assets/model3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 700px;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-right: 50px;
+    font-size: 18px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+nav li {
+    text-align: center;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px 10px;
+}
+
+nav li :hover {
+    color: white;
+    transition: all 0.2s ease 0s;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav_links li{
+    display: inline-flex;
+}
+
+header a button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    color:white;
+    background-color: green;
+    border-radius: 50px;
+}
+
+header a button:hover {
+    background-color:darkgreen;
+    transition: all 0.5s ease 0s;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+models ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+models ul li {
+list-style-type: none;
+display: inline-flex;
+padding: 0px 18px;
+}
+
+models ul :hover {
+    color: white;
+    transition: all 0.2s ease 0s;
+}
+
+.modelNames{
+    margin-right: 220px;
+}
+
+.firstContainer {
+    position: relative;
+    top: -25px;
+    left: 180px;
+    height: 600px;
+    width: 1000px;
+    color: black;
+    text-align: center;
+}
+
+.firstContainer a {
+    color: black;
+}
+
+.firstContainer p a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+    transition: all 0.2s ease 0s;
+}
+
+arrow{
+    position: absolute;
+    top: 550px;
+    animation-name: arrowD;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+
+ @keyframes arrowD {
+    /* from {transform:translateY(-10px);}
+    to {transform:translateY(10px);}  */
+    0% {
+        top: 550px;
+    }
+    70% {
+        top: 560px;
+    }
+ }
+
+buttons li{
+    display: inline-flex;
+    position: relative;
+    top: 390px;
+    left: 2px;
+    text-decoration: none;
+    margin: 5px 10px;
+ }
+
+ buttons ul li {
+    list-style-type:none;
+ }
+
+ buttons ul li button {
+    text-align: center;
+    padding: 8px 65px;
+    border-radius:50px;
+    font-size: small;
+ }
+
+.customer {
+    background-color: rgb(75, 72, 72);
+    border: 2px solid  rgb(75, 72, 72) ;
+}
+
+.customer a {
+    text-decoration: none;
+    color: white;
+}
+
+.customer a:hover {
+    color: white;
+}
+
+.inventory {
+    background-color: rgb(231, 226, 226);
+    border: 2px solid  rgb(240, 233, 233) ;
+}
+
+.inventory a {
+    text-decoration: none;
+    color: black;
+}
+
+.inventory a:hover {
+    color: black;
+}
+
+.modely-container {
+    height:700px;
+    width: 1350px;
+}
+
+.modely-container {
+    background-image: url(/src/assets/modely.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 700px;
+}
+
+.secondContainer {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.secondContainer a {
+    color: black;
+}
+
+.secondContainer p a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+    transition: all 0.2s ease 0s;
+}
+
+.customer2 {
+    background-color: rgb(75, 72, 72);
+    border: 2px solid  rgb(75, 72, 72) ;
+}
+
+.customer2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.customer2 a:hover {
+    color: white;
+}
+
+.inventory2 {
+    background-color: rgb(231, 226, 226);
+    border: 2px solid  rgb(240, 233, 233) ;
+}
+
+.inventory2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.inventory2 a:hover {
+    color: black;
+}
+
+.Footer{
+    height: 615px;
+}
+
+.footer {
+    background-image: url(/src/assets/accessories.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    background-position: center;    
+}
+
+.charger {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.charger li button {
+    position: relative;
+    top: 410px;
+}
+
+.charger li {
+    list-style-type: none;
+}
+
+.footerLink {
+    display: inline-flex;
+    margin-left: 250px;
+}
+
+.footerLink li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerLink li {
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.charger li button {
+    background-color: rgb(75, 72, 72);
+    border: 2px solid  rgb(75, 72, 72) ;
+}
+
+.charger li button {
+    text-align: center;
+    padding: 8px 95px;
+    border-radius:50px;
+    font-size: small;
+}
+
+.footer li button {
+    text-decoration: none;
+    color: white;
+}
